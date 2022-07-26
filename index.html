@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between px-3 py-6 bg-slate-600 text-slate-300 ">
+            <logo class="text-4xl font-bold">Ceaser Cipher</logo>
+
+            <ul class="flex jusity-between">
+                <li class="m-4 text-2xl"><a href="index.html">Home</a></li>
+                <li class="m-4 text-2xl"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="bg-slate-200 w-full h-screen flex justify-center items-center text-center text-3xl">
+                <div class="">
+                    <h1>Encrypt</h1>
+                    <div class="">
+                        <input class="enrypt-cypher" type="text">
+                        <input class="m-2 w-13 text-center encrypt-code" placeholder="Key" type="number">
+                    </div>
+                    <button class="bg-slate-900 rounded-md py-2 px-5 m-3 text-gray-300 encrypt-btn">Decrypt</button>
+                </div>
+
+                <div>
+                    <h1>Decrypt</h1>
+                    <div class="">
+                        <input class="decrypt-cypher" type="text">
+                        <input class="m-2 w-13 text-center decrypt-code" placeholder="Key" type="number">
+                    </div>
+                    <button class="bg-slate-900 rounded-md py-2 px-5 m-3 text-gray-300 decrypt-btn">Encrypt</button>
+
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <script src="index.js"></script>
+</body>
+</html>
